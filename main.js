@@ -1,5 +1,3 @@
-import dayjs from 'dayjs';
-
 const form = document.getElementById('birthdayForm');
 const dialog = document.getElementById('resultDialog');
 const dialogContent = document.getElementById('dialogContent');
