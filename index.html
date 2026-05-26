@@ -7,17 +7,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="p-6">
+
     <h1 class="text-2xl font-bold text-primary">Kalkulator Dni Urodzinowych</h1>
+
     <form id="birthdayForm" class="mt-4">
       <label for="birthDate">Wybierz datę urodzenia:</label>
       <input type="date" id="birthDate" required class="border p-1" />
       <br /><br />
-      <button type="submit" class="bg-blue-300 p-4 font-semibold">Oblicz dni</button>
+      
+      <button type="submit" class="bg-blue-300 p-4 font-semibold">
+        Oblicz dni
+      </button>
     </form>
+
     <dialog id="resultDialog" class="bg-gray-200 text-red-600 p-6 relative">
       <button id="closeDialog" class="absolute top-0 right-2 font-bold text-xl">&times;</button>
+      
       <div id="dialogContent" class="mt-2"></div>
     </dialog>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>
